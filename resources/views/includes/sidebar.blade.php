@@ -32,7 +32,7 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon">
-            <img src="/admin/img/logo-pertagas.png" alt="logo pertagas" style="filter: drop-shadow(1px 1px rgba(255,255,255,0.5));">
+            <img src="{{ asset('/admin/img/logo-pertagas.png') }}" alt="logo pertagas" style="filter: drop-shadow(1px 1px rgba(255,255,255,0.5));">
         </div>
         {{-- <div class="sidebar-brand-text mx-3">PERTAGAS</div> --}}
     </a>
